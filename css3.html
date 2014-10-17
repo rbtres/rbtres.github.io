@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Using CSS3 Attribute Selectors to Style A Form </title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div> <!--Wrapper -->
+<br> <br>
+<form name="contact" id="contact" method="post" action="http://httpbin.org/post"> 
+<h1>Contact Form </h1>
+<br>
+<label for="name">
+<span>* Your Name : </span> 
+</label>
+<input type="text" name="name" id="name" placeholder="Your Full Name" required="required"> 
+<br><br>
+<label for="email">
+<span>* Your Email :</span> 
+</label>
+<input type="email" name="email" id="email" placeholder="Valid Email" required="required"> 
+<br><br> 
+<label for="message">
+<span>* Message :</span> 
+</label> 
+<br> 
+<textarea id="message" name="message" placeholder="Your Message to Us" required="required">
+</textarea> 
+<br><br>
+<label for="selection">
+<span>* Subject :</span>
+</label> 
+<select name="selection">
+<option value="Job Inquiry">Job Inquiry</option>
+<option value="General Question">General Question</option>
+</select> 
+<br><br> 
+<input type="submit" value="Send" > 
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+<input type="reset" value="Reset" > 
+</form>
+</div>
+<p style="float: right;">
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+<img style="border:0;width:88px;height:31px"
+ src="http://jigsaw.w3.org/css-validator/images/vcss"
+ alt="Valid CSS!" >
+</a>
+</p>
+</body>
+</html>

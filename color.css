@@ -1,4 +1,8 @@
-body { background-color: black; }
+body
+{
+	background-color: #444444;
+}
+
 
 h1{
 	color: navy;
@@ -7,10 +11,11 @@ h1{
 
 footer {
 	text-align: center;
+	color: white;
 }
 
 h2{
-color:black;
+color:red;
 
 }
 h3{
@@ -24,7 +29,7 @@ color: white;
 }
 footer p small
 {
-color: red;
+color: white;
 }
 .Search
 {
@@ -34,15 +39,27 @@ color: yellow;
 {
 color: white;
 }
-#listone
-{
-list-style-type: square;
-list-style-position: inside;
+.wrapper{
+	width: 98%;
+	background-color: #333333;
+	margin: auto;
 }
-.web{
-color: black;
+#navTable{
+	width: 100%;
+	border: .1em solid black;
+}
+
+.navTableItem{
+background-color: black;
+border: .1em solid black;
 text-align: center;
-background-color:red;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.navText
+{
+	text-decoration: none;
 }
 a:link { 
 	font-weight: bold; 
@@ -57,7 +74,7 @@ a:visited {
 	color: white;
 	}
 a:hover, a:focus, a:active { 
-	text-decoration: underline; 
+	text-decoration: none; 
 	color: red;
 	text-align: left;
 	}

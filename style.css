@@ -1,50 +1,93 @@
+body
+{
+	background-color: #444444;
+}
 
-form
-{
-margin:auto;
-max-width:40em;
-background-color:#F7F7F7;
-padding: 2em 1.5em;
-font: .7em Georgia, serif;
-color:  #888;
-border: .5em solid#E4E4E4;
-border-radius: 15em;
+
+.wrapper{
+	width: 98%;
+	background-color: #333333;
+	margin: auto;
 }
-form h1{
-font-size: 2em;
-padding: .5em;
-border-bottom: .1em solid#E4E4E4;
-margin:.2em .6em;
+
+header{
+	text-align: center;
+	color:white;
+}
+
+footer{
+	border: .1em solid brown;
+	text-align: center;
+	color: white;
+}
+
+
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	text-align: left;
+	color: yellow;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	text-align: left;
+	color: white;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: none; 
+	color: red;
+	text-align: left;
+	}
+
+#navTable{
+	width: 100%;
+	border: .1em solid black;
+}
+
+.navTableItem{
+background-color: black;
+border: .1em solid black;
 text-align: center;
-color: #888;
+padding-left: 5%;
+padding-right: 5%;
 }
-h1 span{ font-size: 1em;}
-label{margin: auto;}
-label span{ float:left;
-width:20%;
-text-align:right;
-margin-top: 1em;
-color:#888;
-}
-input[type="text"], input[type="email"], textarea, select{
-color: #888;
-height: 2em;
-margin: auto;
-padding: .8em;
-width:60%;
-font-size: 1em;
-line-height: 2em;
-}
-textarea{padding: 1em; height: 10em;}
-select{width:64%; height: 3.5em;}
-input[type="submit"],input[type="reset"]
+
+.navText
 {
-background-color: #E27575;
-border: none; padding: 1em;
-color:#FFF; border-radius: 1em;
-text-align:center;
+	text-decoration: none;
 }
-input[type="submit"]{margin-left: 12em;}
-input[type="submit"],input[type="reset"]:hover{
-background-color:#CF7A7A;
+
+#backgroundImage
+{
+background: url(Autumn.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+#right
+{
+	float: right;
+	width: 50%;
+	height: 25em;
+	background-color: #222222;
+	text-align: center;
+	color: white;
+	overflow: hidden;
+}
+
+#center
+{
+	width: 50%;
+	margin: auto;
+	height: 25em;
+	text-align: center;
+	color: white;
+	background-color: #222222;
+	overflow: hidden;
+}
+
+.content{
+display: flex;
 }

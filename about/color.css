@@ -1,0 +1,80 @@
+body
+{
+	background-color: #444444;
+}
+
+
+h1{
+	color: navy;
+	text-align: center;
+	}
+
+footer {
+	text-align: center;
+	color: white;
+}
+
+h2{
+color:red;
+
+}
+h3{
+text-align: center;
+color: white;
+}
+h1{
+background-color: black;
+color: white;
+
+}
+footer p small
+{
+color: white;
+}
+.Search
+{
+color: yellow;
+}
+#P1
+{
+color: white;
+}
+.wrapper{
+	width: 98%;
+	background-color: #333333;
+	margin: auto;
+}
+#navTable{
+	width: 100%;
+	border: .1em solid black;
+}
+
+.navTableItem{
+background-color: black;
+border: .1em solid black;
+text-align: center;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.navText
+{
+	text-decoration: none;
+}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	text-align: left;
+	color: yellow;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	text-align: left;
+	color: white;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: none; 
+	color: red;
+	text-align: left;
+	}
